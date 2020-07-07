@@ -1,0 +1,25 @@
+server:
+  # 服务端口
+  port: 6002
+
+
+# 配置Eureka服务端
+eureka:
+  instance:
+    # Eureka服务端的实例名称
+    hostname: eureka6002.com
+  client:
+    # 服务注册开关，false表示不将自已注册到Eureka服务中
+    register-with-eureka: false
+    # 服务发现开关，false表示自己不从Eureka服务中获取注册信息
+    fetch-registry: false
+    serviceUrl:
+      # "Eureka客户端"与"Eureka服务端"的交互地址，集群版配置对方的地址，单机版配置自己（如果不配置则默认本机8761端口）
+      # 注意：‘defaultZone’不可写成‘defaultzone’，必须用‘驼峰命名法’，否则会报错。
+      # 1.单机版地址
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      # 2.集群版地址：配置其他Eureka Server服务端的访问地址，若有多个地址则以逗号分隔
+      defaultZone: http://eureka6001.com:6001/eureka/
+  server:
+    # 禁用自我保护机制（默认是开启的，开发阶段建议禁用）
+    enable-self-preservation: false
