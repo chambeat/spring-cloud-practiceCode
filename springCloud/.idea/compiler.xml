@@ -11,6 +11,7 @@
         <module name="microservice-cloud-04-consumer-product-80" />
         <module name="microservice-cloud-05-eureka-6001" />
         <module name="microservice-cloud-05-eureka-6002" />
+        <module name="microservice-cloud-06-provider-product-8002" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="microservice-cloud-04-consumer-product-80" target="1.8" />
       <module name="microservice-cloud-05-eureka-6001" target="1.8" />
       <module name="microservice-cloud-05-eureka-6002" target="1.8" />
+      <module name="microservice-cloud-06-provider-product-8002" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
