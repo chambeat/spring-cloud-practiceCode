@@ -9,6 +9,7 @@
     <ignored path="$PROJECT_DIR$/microservice-cloud-05-eureka-6001/target/" />
     <ignored path="$PROJECT_DIR$/microservice-cloud-05-eureka-6002/target/" />
     <ignored path="$PROJECT_DIR$/microservice-cloud-06-provider-product-8002/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-cloud-07-consumer-product-feign/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,11 +56,16 @@
         <option value="$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/chm/springcloud/config/ConfigBean.java" />
-        <option value="$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/chm/springcloud/ProductConsumer_80.java" />
         <option value="$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/chm/springcloud/controller/ProductController_Consumer.java" />
         <option value="$PROJECT_DIR$/microservice-cloud-06-provider-product-8002/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-cloud-06-provider-product-8002/src/main/resources/application.yml" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/chm/springcloud/ProductConsumer_80.java" />
+        <option value="$PROJECT_DIR$/microservice-cloud-07-consumer-product-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-cloud-07-consumer-product-feign/src/main/java/com/chm/springcloud/ProductConsumer_80.java" />
+        <option value="$PROJECT_DIR$/microservice-cloud-07-consumer-product-feign/src/main/java/com/chm/springcloud/service/ProductClientService.java" />
+        <option value="$PROJECT_DIR$/microservice-cloud-07-consumer-product-feign/src/main/java/com/chm/springcloud/controller/ProductController_Consumer.java" />
+        <option value="$PROJECT_DIR$/microservice-cloud-07-consumer-product-feign/src/main/java/com/chm/springcloud/ProductConsumer_80_feign.java" />
       </list>
     </option>
   </component>
@@ -97,10 +103,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="1" />
-    <option name="width" value="784" />
-    <option name="height" value="788" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -108,24 +114,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-cloud-04-consumer-product-80" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-cloud-07-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-cloud-04-consumer-product-80" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-cloud-07-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-cloud-04-consumer-product-80" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-cloud-07-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -144,6 +150,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="D:/myCode_HTML_CSS_JS/day1/demo_form" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -156,11 +163,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myCode_00_SpringCloud\springCloud\microservice-cloud-07-consumer-product-feign\src\main" />
       <recent name="D:\myCode_00_SpringCloud\springCloud\microservice-cloud-06-provider-product-8002\src\main\java" />
       <recent name="D:\myCode_00_SpringCloud\springCloud\microservice-cloud-06-provider-product-8002\src\main\resources" />
       <recent name="D:\myCode_00_SpringCloud\springCloud\microservice-cloud-04-consumer-product-80" />
       <recent name="D:\myCode_00_SpringCloud\springCloud\microservice-cloud-03-provider-product-8001" />
-      <recent name="D:\myCode_00_SpringCloud\springCloud\microservice-cloud-01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,11 +187,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProductConsumer_80">
-    <configuration name="MicroserviceProductProvider_8001" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ProductConsumer_80_feign">
+    <configuration name="MicroserviceProductProvider_8001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chm.springcloud.MicroserviceProductProvider_8001" />
       <module name="microservice-cloud-03-provider-product-8001" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.chm.springcloud.*" />
@@ -192,9 +199,9 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ProductConsumer_80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chm.springcloud.ProductConsumer_80" />
-      <module name="microservice-cloud-04-consumer-product-80" />
+    <configuration name="ProductConsumer_80_feign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chm.springcloud.ProductConsumer_80_feign" />
+      <module name="microservice-cloud-07-consumer-product-feign" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -275,17 +282,17 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MicroserviceProductProvider_8001" />
-      <item itemvalue="Application.ProductConsumer_80" />
       <item itemvalue="Spring Boot.EurekaServer_6001" />
       <item itemvalue="Spring Boot.EurekaServer_6002" />
       <item itemvalue="Spring Boot.MicroserviceProductProvider_8002" />
+      <item itemvalue="Application.MicroserviceProductProvider_8001" />
+      <item itemvalue="Application.ProductConsumer_80_feign" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductConsumer_80" />
-        <item itemvalue="Spring Boot.MicroserviceProductProvider_8002" />
+        <item itemvalue="Application.ProductConsumer_80_feign" />
         <item itemvalue="Application.MicroserviceProductProvider_8001" />
+        <item itemvalue="Spring Boot.MicroserviceProductProvider_8002" />
         <item itemvalue="Spring Boot.EurekaServer_6002" />
         <item itemvalue="Spring Boot.EurekaServer_6001" />
       </list>
@@ -364,11 +371,21 @@
       <workItem from="1595168235251" duration="717000" />
       <workItem from="1595169007758" duration="298000" />
       <workItem from="1595169312108" duration="372000" />
+      <workItem from="1595648974187" duration="3895000" />
+      <workItem from="1595681883440" duration="802000" />
+      <workItem from="1595759255513" duration="1211000" />
+      <workItem from="1595912417284" duration="1121000" />
+      <workItem from="1596002653871" duration="698000" />
+      <workItem from="1596007173699" duration="596000" />
+      <workItem from="1596009400641" duration="163000" />
+      <workItem from="1596011065643" duration="603000" />
+      <workItem from="1596011679265" duration="3265000" />
+      <workItem from="1596016386178" duration="302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50800000" />
+    <option name="totallyTimeSpent" value="63456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -395,7 +412,7 @@
       <window_info anchor="bottom" x="22" y="182" width="1322" height="373" id="Run" order="5" weight="0.6055195" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.3139183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.28744328" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -408,12 +425,13 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49924356" weight="0.38474026" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6055195" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" x="22" y="182" width="1322" height="373" id="Run" order="5" weight="0.6055195" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -421,7 +439,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.38474026" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -429,18 +447,17 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.32980332" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.30030257" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.31996974" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" sideWeight="0.5016234" side_tool="true" weight="0.3161876" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.38474026" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,26 +472,16 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-cloud-05-eureka-6002/src/main/java/com/chm/springcloud/EurekaServer_6002.java" />
-    <entry file="file://$PROJECT_DIR$/microservice-cloud-03-provider-product-8001/src/main/java/com/chm/springcloud/MicroserviceProductProvider_8001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/chm/springcloud/controller/ProductController_Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -558,24 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-cloud-03-provider-product-8001/src/main/java/com/chm/springcloud/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-cloud-03-provider-product-8001/src/main/java/com/chm/springcloud/mapper/ProductMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-cloud-03-provider-product-8001/src/main/java/com/chm/springcloud/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -753,13 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -771,27 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/chm/springcloud/ProductConsumer_80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-cloud-03-provider-product-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/chm/springcloud/controller/ProductController_Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
         </state>
       </provider>
     </entry>
@@ -811,9 +776,6 @@
     <entry file="file://$PROJECT_DIR$/microservice-cloud-06-provider-product-8002/src/main/resources/mybatis/mapper/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-cloud-06-provider-product-8002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-cloud-06-provider-product-8002/src/main/java/com/chm/springcloud/MicroserviceProductProvider_8002.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -828,6 +790,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/chm/springcloud/ProductConsumer_80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/chm/springcloud/controller/ProductController_Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-06-provider-product-8002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-07-consumer-product-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-03-provider-product-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-03-provider-product-8001/src/main/java/com/chm/springcloud/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-07-consumer-product-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-07-consumer-product-feign/src/main/java/com/chm/springcloud/service/ProductClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-03-provider-product-8001/src/main/java/com/chm/springcloud/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-07-consumer-product-feign/src/main/java/com/chm/springcloud/controller/ProductController_Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-cloud-03-provider-product-8001/src/main/java/com/chm/springcloud/MicroserviceProductProvider_8001.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -835,10 +881,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-07-consumer-product-feign/src/main/java/com/chm/springcloud/ProductConsumer_80_feign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="144">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -894,11 +944,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>microservice-cloud-05-eureka-6001</last-edited>
+          <last-edited>microservice-cloud-06-provider-product-8002</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
