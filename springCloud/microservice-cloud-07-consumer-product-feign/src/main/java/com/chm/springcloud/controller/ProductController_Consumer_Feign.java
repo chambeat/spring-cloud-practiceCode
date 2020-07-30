@@ -8,12 +8,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-public class ProductController_Consumer {
+public class ProductController_Consumer_Feign {
 
     @Autowired
     ProductClientService productClientService;
-
-    private static final String REST_URL_PREFIX = "http://microservice-product";
 
     @RequestMapping("/consumer/product/add")
     public boolean add(Product product) {
