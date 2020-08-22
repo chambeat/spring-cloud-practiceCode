@@ -1,0 +1,52 @@
+server:
+  port: 8001
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml
+  # 所有Entity别名类所在包
+  type-aliases-package: com.chm.springcloud.entity
+  mapper-locations: classpath:mybatis/mapper/**/*.xml
+
+spring:
+  application:
+    # 应用名(当服务与服务之间相互调用时，一般都是根据这个'name')
+    name: microservice-product
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloud_db01?serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    dbcp2:
+      min-idle: 5
+      initial-size: 5
+      max-total: 5
+      max-wait-millis: 150
+
+
+# 配置Eureka客户端
+eureka:
+  client:
+    # 服务注册开关
+    register-with-eureka: true
+    # 服务发现开关
+    fetch-registry: true
+    serviceUrl:
+      # 指定要注册到哪一个Eureka Server服务注册中心，当存在多个时，中间须用逗号分隔
+      # 注意：‘defaultZone’不可写成‘defaultzone’，必须是驼峰命名法，否则会报错。
+      # 1.单机版Eureka服务注册中心
+#      defaultZone: http://localhost:6001/eureka/
+      # 2.集群版Eureka服务注册中心（多个地址须用逗号隔开）
+      defaultZone: http://eureka6001.com:6001/eureka, http://eureka6002.com:6002/eureka
+  instance:
+    # 指定实例ID，则不再显示主机名(或IP地址)
+    instanceId: ${spring.application.name}:${server.port}-hystrix # 加上 hystrix 以示区分
+    # 当鼠标悬停在实例上时，让左下角显示IP地址
+    preferIpAddress: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
+# 在被监控服务上添加暴露端点

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
-@FeignClient("microservice-product") //指定要调用的微服务的名称
+@FeignClient(value = "microservice-product", fallback = ProductClientServiceFallback.class) //指定要调用的微服务的名称
 public interface ProductClientService {
 
     @PostMapping("/product/add")
