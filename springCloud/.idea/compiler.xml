@@ -15,6 +15,7 @@
         <module name="microservice-cloud-07-consumer-product-feign" />
         <module name="microservice-cloud-08-provider-product-hystrix-8001" />
         <module name="microservice-cloud-09-hystrix-dashboard-9001" />
+        <module name="microservice-cloud-10-zuul-gateway-7001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="microservice-cloud-07-consumer-product-feign" target="1.8" />
       <module name="microservice-cloud-08-provider-product-hystrix-8001" target="1.8" />
       <module name="microservice-cloud-09-hystrix-dashboard-9001" target="1.8" />
+      <module name="microservice-cloud-10-zuul-gateway-7001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
