@@ -16,6 +16,7 @@
         <module name="microservice-cloud-08-provider-product-hystrix-8001" />
         <module name="microservice-cloud-09-hystrix-dashboard-9001" />
         <module name="microservice-cloud-10-zuul-gateway-7001" />
+        <module name="microservice-cloud-11-config-server-5001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +31,7 @@
       <module name="microservice-cloud-08-provider-product-hystrix-8001" target="1.8" />
       <module name="microservice-cloud-09-hystrix-dashboard-9001" target="1.8" />
       <module name="microservice-cloud-10-zuul-gateway-7001" target="1.8" />
+      <module name="microservice-cloud-11-config-server-5001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
